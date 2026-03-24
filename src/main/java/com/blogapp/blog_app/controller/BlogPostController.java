@@ -69,4 +69,9 @@ public class BlogPostController {
 
         return new ResponseEntity<>("Post entity deleted successfully.", HttpStatus.OK);
     }
+
+	@GetMapping("/title")
+	public ResponseEntity<BlogPostDto> searchByTitle(@PathVariable String title){
+		return new ResponseEntity<>(null, HttpStatus.OK);
+	}
 }
