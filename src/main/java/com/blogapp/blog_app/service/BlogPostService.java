@@ -17,6 +17,6 @@ public interface BlogPostService {
 	
 	public void deleteBlogPostById(long id);
 
-    public void getPostByTitle(String title);
+    public void getSearchByTitle(String title);
 
 }

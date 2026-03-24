@@ -96,7 +96,7 @@ public class BlogPostServiceImpl implements BlogPostService{
     }
 
 	@Override
-	public void getPostByTitle(String title) {
+	public void getSearchByTitle(String title) {
 
 	}
 
