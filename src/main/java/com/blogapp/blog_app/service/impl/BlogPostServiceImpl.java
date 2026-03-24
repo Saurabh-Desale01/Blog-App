@@ -94,7 +94,12 @@ public class BlogPostServiceImpl implements BlogPostService{
         blogPostRepository.delete(post);
       
     }
-	
+
+	@Override
+	public void getPostByTitle(String title) {
+
+	}
+
 	private BlogPostDto mapToDto(BlogPost blogPost) {
 		BlogPostDto blogPostDto = mapper.map(blogPost, BlogPostDto.class);
 		
